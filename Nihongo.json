@@ -1,0 +1,129 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "Convo",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "yes",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "no",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "do you understand",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Greeting",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Good morning",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Good evening",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Hello",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Good night",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Name",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Abdul",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "John",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Foyin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Dave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Stella",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": [
+          "cancel"
+        ]
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": [
+          "repeat ",
+          "help",
+          "yes"
+        ]
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "stop",
+          "no"
+        ]
+      }
+    ],
+    "invocationName": "learn japanese"
+  }
+}
